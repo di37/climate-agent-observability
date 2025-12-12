@@ -133,7 +133,6 @@ climate-agent-observability/
 
 ```bash
 python main.py                    # Interactive chat (Session memory enabled)
-python main.py --demo             # Run 3 example queries
 python main.py --create-prompt    # Setup managed prompt
 python main.py --help             # Show help
 ```
