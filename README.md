@@ -3,7 +3,7 @@
 **A Real-World Agentic AI Application** demonstrating complete **Langfuse Observability** integration.
 
 ### 🌍 Real-World Use Case
-This project simulates a **Climate Data Analyst**—an AI agent designed to analyze the impact of climate change on global agriculture. It interacts with a realistic dataset of **10,000 records** (covering crop yields, CO2 levels, and economic impacts) to answer complex analytical questions, mirroring how AI is used in modern data-driven enterprises.
+This project simulates a **Climate Data Analyst**—an AI agent designed to analyze the impact of climate change on global agriculture. It interacts with a dataset of **10,000 records** (covering crop yields, CO2 levels, and economic impacts) to answer complex analytical questions, mirroring how AI is used in modern data-driven enterprises.
 
 ### 🔭 Learn Langfuse Observability
 More than just a demo, this is a **hands-on masterclass** in LLM Observability. You will learn how to use **Langfuse** to:
@@ -140,25 +140,6 @@ python main.py --help             # Show help
 > **Note:** The interactive chat maintains **in-memory history**, allowing for follow-up questions within the same session.
 
 ## 🔍 Observability with Langfuse
-
-### Self-Hosted Langfuse
-
-This example uses **self-hosted Langfuse** for complete control and privacy:
-
-```bash
-# Start Langfuse (from langfuse directory)
-cd ../langfuse
-docker-compose up -d
-
-# Access at:
-http://localhost:3000
-```
-
-**Benefits of Self-Hosted:**
-- ✅ Full data control
-- ✅ No external dependencies
-- ✅ Free and open-source
-- ✅ Custom deployment options
 
 ### What Gets Tracked
 
@@ -314,16 +295,5 @@ The following advanced evaluation techniques are currently **in development** an
 - [Langfuse + Agno Integration](https://langfuse.com/integrations/frameworks/agno-agents)
 - [Agno Documentation](https://docs.agno.ai)
 - [OpenLIT Documentation](https://docs.openlit.io)
-
-## 📝 License
-
-This is an example/demonstration project for learning Langfuse observability.
-
----
-
-**🚀 Quick Start:** `python main.py --demo`  
-**📖 Full Guide:** `docs/GUIDE.md`  
-**🔄 Wrap Your Agent:** `src/observability/WRAPPER_GUIDE.md`  
-**💡 Examples:** `examples/` folder
 
 **Built to demonstrate Langfuse observability for Agentic AI applications** 🌱✨
